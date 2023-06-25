@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mamaquilla/static/css/main.f5c9d26d.css",
+    "main.js": "/mamaquilla/static/js/main.79c9918f.js",
+    "static/js/787.b506e2af.chunk.js": "/mamaquilla/static/js/787.b506e2af.chunk.js",
+    "index.html": "/mamaquilla/index.html",
+    "main.f5c9d26d.css.map": "/mamaquilla/static/css/main.f5c9d26d.css.map",
+    "main.79c9918f.js.map": "/mamaquilla/static/js/main.79c9918f.js.map",
+    "787.b506e2af.chunk.js.map": "/mamaquilla/static/js/787.b506e2af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c9d26d.css",
+    "static/js/main.79c9918f.js"
+  ]
+}
