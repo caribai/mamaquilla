@@ -1,38 +1,81 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500&family=Nunito&display=swap');
+.body {
+  font-family: 'Geologica', sans-serif;
+  /* Resto de los estilos para el elemento */
+}
+.menu{ 
+  background-color: #c9031a;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+.menu-button{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3.5vw;
+}
+
+.logo{
+  text-align: center;
+  padding: 2vw;
+}
+
+.logo img{
+  width: 55vw;
+}
+.division img{
+  width: 100%;
+}
+
+.banner-catalogo{
+  margin: 3vw 2vw 3vw 2vw;
+  display: flex;
+}
+
+.banner-catalogo div{
+  background-color: rgb(39, 110, 10);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:white;
+}
+
+.banner-catalogo-imagen {
+  width: 60vw; /* Ancho deseado del cuadrado */
+  height: 30vw; /* Altura deseada del cuadrado */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del cuadrado */
+}
+
+.banner-catalogo-imagen img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del cuadrado */
+  height: 100%; /* Ajusta la altura de la imagen al 100% del cuadrado */
+  object-fit: cover; /* Ajusta la imagen para que cubra el cuadrado sin deformarse */
+}
+
+.gray-h2{
+  font-size: 6vw;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+.red-h1{
+  font-size: 8vw;
+  font-weight: bold;
+  color: #c9031a;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.familia{
+  width: 100%;
+}
+footer{
+  background-color: #c9031a;
+  padding-top: 2vw;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.redes-sociales div{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 3vw;
 }
